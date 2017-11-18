@@ -12,6 +12,7 @@
 @import "node_modules/simplemde/dist/simplemde.min";
 @import "node_modules/dropzone/dist/dropzone";
 @import "node_modules/cropperjs/dist/cropper";
+@import "node_modules/jsoneditor/dist/jsoneditor.min";
 @import "fonts";
 
 /********** LOGIN STYLES ***********/
@@ -9842,3 +9843,13 @@ div.cropper-container img {
 }
 
 /********** END Cropper Style **********/
+
+
+/********** JSON EDITOR FIX ICONS **********/
+
+div.jsoneditor-menu > button, div.jsoneditor-menu > div.jsoneditor-modes > button {
+
+  background: transparent url('../images/jsoneditor-icons.svg');
+
+}
+/********** END JSON EDITOR FIX ICONS **********/

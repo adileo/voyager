@@ -181,4 +181,5 @@
             $('[data-toggle="tooltip"]').tooltip();
         });
     </script>
+    @yield('javascript')
 @stop

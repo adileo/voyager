@@ -4,6 +4,7 @@
         width: 100%;
     }
 </style>
+
 @forelse($dataTypeContent->getCoordinates() as $point)
     <input type="hidden"  data-name="{{ $row->display_name }}" name="{{ $row->field }}[lat]" value="{{ $point['lat'] }}" id="lat"/>
     <input type="hidden"  data-name="{{ $row->display_name }}" name="{{ $row->field }}[lng]" value="{{ $point['lng'] }}" id="lng"/>

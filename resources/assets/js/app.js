@@ -27,6 +27,7 @@ require('./voyager_ace_editor');
 window.helpers = require('./helpers.js');
 require('./load-remote.js');
 require('cropperjs');
+window.jsoneditor = require('jsoneditor');
 
 $(document).ready(function(){
 

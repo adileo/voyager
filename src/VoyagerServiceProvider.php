@@ -313,6 +313,7 @@ class VoyagerServiceProvider extends ServiceProvider
             'timestamp',
             'hidden',
             'coordinates',
+            'json',
         ];
 
         foreach ($formFields as $formField) {
